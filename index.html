@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adrian Movies</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Menu principal-->
+<nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #fef7cf">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/titulo.png" width="502" height="152"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Inicio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Noticias</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Recomendaciones</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+
+<!--Titulo Peliculas-->
+<div id="inicio">
+	<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Top películas</h1>
+		</div>
+		<hr>
+	</div>
+	</div>
+</div>
+
+<!--Peliculas-->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/glass.jpg">
+			<div class="card-body">
+				<h4 class="card-tittle">Glass</h4>
+				<p class="card-text">'Glass' es la más taquillera este fin de semana en EUA</p>
+				<a href="http://www.lavozdemichoacan.com.mx/espectaculos/glass-es-la-mas-taquillera-este-fin-de-semana-en-eua/" class="btn btn-outline-secondary">Ver más</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/roma.jpg">
+			<div class="card-body">
+				<h4 class="card-tittle">Roma</h4>
+				<p class="card-text">"Roma": Alfonso Cuarón gana premio de los directores y se afianza para los Oscar</p>
+				<a href="https://elcomercio.pe/luces/cine/oscar-2019-alfonso-cuaron-roma-gana-premio-directores-dga-awards-favoritismo-academia-noticia-603910" class="btn btn-outline-secondary">Ver más</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/avengers.jpg">
+			<div class="card-body">
+				<h4 class="card-tittle">Avengers</h4>
+				<p class="card-text">Los héroes se preparan para contraatacar en el TV Spot de Avengers: Endgame</p>
+				<a href="http://mouse.latercera.com/avengers-endgame-super-bowl-tv-spot/" class="btn btn-outline-secondary">Ver más</a>
+			</div>
+		</div>
+		</div>
+</div>
+</div>
+<!--Fondo fijo-->
+<hr class="my-4">
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+<hr class="my-4">
+<!--Imagenes-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="img/oscars.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2">Los óscars</h1>
+			<h3>Lo mejor de lo mejor</h3>
+				<a href="https://oscar.go.com/"><button type="button" class="btn btn-outline-light btn-lg">Ver premiaciones</button></a>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img src="img/cuervos.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2">Los Cuervos</h1>
+			<h3>Nueva temporada</h3>
+				<a href="https://www.youtube.com/watch?v=Erk0Rcsp8Lw"><button type="button" class="btn btn-outline-light btn-lg">Ver tráiler</button></a>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img src="img/dragon.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2">Cómo entrenar a tu dragón 3</h1>
+			<h3>Nuevo trailer</h3>
+			<a href="https://www.youtube.com/watch?v=DWXJdezkThk"><button type="button" class="btn btn-outline-light btn-lg">Ver tráiler</button></a>
+		</div>
+	</div>
+</div>
+</div>
+<hr class="my-4">
+<!--Pie de pagina-->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-12">
+		<hr class="light">
+		<h5>Adrian Movies, Copyright 2019 &copy;</h5>
+	</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
